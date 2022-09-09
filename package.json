@@ -1,0 +1,46 @@
+{
+  "name": "vite-vue-ts-template",
+  "version": "0.1.2",
+  "main": "index.js",
+  "repository": "git@github.com:FreeNowOrg/vite-vue-ts-template.git",
+  "author": "FreeNowOrg <https://github.com/FreeNowOrg>",
+  "license": "Apache-2.0",
+  "private": true,
+  "packageManager": "pnpm@0.0.0",
+  "scripts": {
+    "start": "vite",
+    "serve": "vercel dev",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "js-cookie": "^3.0.1",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@l2studio/picacomic-api": "^0.1.9",
+    "@types/js-cookie": "^3.0.0",
+    "@types/node": "^16.10.2",
+    "@types/nprogress": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "@vercel/node": "^1.13.0",
+    "@vicons/fa": "^0.11.0",
+    "@vicons/utils": "^0.1.4",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "@vue/compiler-sfc": "^3.2.31",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "form-data": "^4.0.0",
+    "prettier": "^2.5.1",
+    "pug": "^3.0.2",
+    "sass": "^1.49.9",
+    "serverless-kit": "^0.2.3",
+    "typescript": "^4.6.2",
+    "vercel": "^24.0.0",
+    "vite": "^2.8.6"
+  }
+}
